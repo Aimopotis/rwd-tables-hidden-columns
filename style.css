@@ -1,0 +1,22 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inning, .longName{
+  display: none;
+}
+
+@media(min-width: 450px){
+  .inning, .longName{
+    display: table-cell;
+  }
+  .shortName{
+    display: none;
+  }
+}
+
+@media (max-width: 449px){
+  table.no-more, .nomore thead, .nomore tbody, .nomore th, .nomore td, .nomore tr{
+    display: block;
+  }
+}
